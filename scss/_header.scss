@@ -1,0 +1,28 @@
+
+header {
+    background-color:slategray ;
+    nav {
+        ul {
+            text-align: center;
+            font-size: 32px;
+            li {
+                display: inline-block;
+                background-color: orange;
+                border-bottom: 1px solid black;
+                margin: 5px;
+                padding: 5px;
+
+                    a{
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover{
+                        background-color: black;
+                        color: white;
+
+                 }
+               } 
+            }
+        }
+    }
+}
